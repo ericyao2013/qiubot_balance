@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>RTIMULib/IMUDrivers</itemPath>
+      <itemPath>RTIMULib/RTFusion.cpp</itemPath>
+      <itemPath>RTIMULib/RTFusion.h</itemPath>
+      <itemPath>RTIMULib/RTFusionKalman4.cpp</itemPath>
+      <itemPath>RTIMULib/RTFusionKalman4.h</itemPath>
+      <itemPath>RTIMULib/RTFusionRTQF.cpp</itemPath>
+      <itemPath>RTIMULib/RTFusionRTQF.h</itemPath>
+      <itemPath>RTIMULib/RTIMUAccelCal.cpp</itemPath>
+      <itemPath>RTIMULib/RTIMUAccelCal.h</itemPath>
+      <itemPath>RTIMULib/RTIMUCalDefs.h</itemPath>
+      <itemPath>RTIMULib/RTIMUHal.cpp</itemPath>
+      <itemPath>RTIMULib/RTIMUHal.h</itemPath>
+      <itemPath>RTIMULib/RTIMULIB LICENSE</itemPath>
+      <itemPath>RTIMULib/RTIMULib.h</itemPath>
+      <itemPath>RTIMULib/RTIMULib.pri</itemPath>
+      <itemPath>RTIMULib/RTIMULibDefs.h</itemPath>
+      <itemPath>RTIMULib/RTIMUMagCal.cpp</itemPath>
+      <itemPath>RTIMULib/RTIMUMagCal.h</itemPath>
+      <itemPath>RTIMULib/RTIMUSettings.cpp</itemPath>
+      <itemPath>RTIMULib/RTIMUSettings.h</itemPath>
+      <itemPath>RTIMULib/RTMath.cpp</itemPath>
+      <itemPath>RTIMULib/RTMath.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>RTIMULibDrive.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="RTIMULib/IMUDrivers" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTFusion.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTFusion.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTFusionKalman4.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTFusionKalman4.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTFusionRTQF.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTFusionRTQF.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMUAccelCal.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMUAccelCal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMUCalDefs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMUHal.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMUHal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMULIB LICENSE" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMULib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMULib.pri" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMULibDefs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMUMagCal.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMUMagCal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMUSettings.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMUSettings.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTMath.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTMath.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULibDrive.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="RTIMULib/IMUDrivers" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTFusion.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTFusion.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTFusionKalman4.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTFusionKalman4.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTFusionRTQF.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTFusionRTQF.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMUAccelCal.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMUAccelCal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMUCalDefs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMUHal.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMUHal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMULIB LICENSE" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMULib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMULib.pri" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMULibDefs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMUMagCal.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMUMagCal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMUSettings.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTIMUSettings.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTMath.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="RTIMULib/RTMath.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RTIMULibDrive.cpp" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
